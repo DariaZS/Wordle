@@ -16,6 +16,9 @@
 		66448C38297F2404009DD824 /* WordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66448C37297F2404009DD824 /* WordleTests.swift */; };
 		66448C42297F2404009DD824 /* WordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66448C41297F2404009DD824 /* WordleUITests.swift */; };
 		66448C44297F2404009DD824 /* WordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66448C43297F2404009DD824 /* WordleUITestsLaunchTests.swift */; };
+		66448C53297F28DC009DD824 /* KeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66448C52297F28DC009DD824 /* KeyBoardViewController.swift */; };
+		66448C55297F2908009DD824 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66448C54297F2908009DD824 /* BoardViewController.swift */; };
+		66448C57297F33FB009DD824 /* KeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66448C56297F33FB009DD824 /* KeyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		66448C3D297F2404009DD824 /* WordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66448C41297F2404009DD824 /* WordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITests.swift; sourceTree = "<group>"; };
 		66448C43297F2404009DD824 /* WordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66448C52297F28DC009DD824 /* KeyBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardViewController.swift; sourceTree = "<group>"; };
+		66448C54297F2908009DD824 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		66448C56297F33FB009DD824 /* KeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,8 @@
 		66448C1F297F2401009DD824 /* Wordle */ = {
 			isa = PBXGroup;
 			children = (
-				66448C20297F2401009DD824 /* AppDelegate.swift */,
-				66448C22297F2401009DD824 /* SceneDelegate.swift */,
-				66448C24297F2401009DD824 /* ViewController.swift */,
-				66448C26297F2401009DD824 /* Main.storyboard */,
-				66448C29297F2403009DD824 /* Assets.xcassets */,
-				66448C2B297F2403009DD824 /* LaunchScreen.storyboard */,
+				66448C51297F278B009DD824 /* oother */,
+				66448C50297F277D009DD824 /* core */,
 				66448C2E297F2403009DD824 /* Info.plist */,
 			);
 			path = Wordle;
@@ -125,6 +127,29 @@
 				66448C43297F2404009DD824 /* WordleUITestsLaunchTests.swift */,
 			);
 			path = WordleUITests;
+			sourceTree = "<group>";
+		};
+		66448C50297F277D009DD824 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				66448C24297F2401009DD824 /* ViewController.swift */,
+				66448C52297F28DC009DD824 /* KeyBoardViewController.swift */,
+				66448C54297F2908009DD824 /* BoardViewController.swift */,
+				66448C56297F33FB009DD824 /* KeyCell.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		66448C51297F278B009DD824 /* oother */ = {
+			isa = PBXGroup;
+			children = (
+				66448C22297F2401009DD824 /* SceneDelegate.swift */,
+				66448C2B297F2403009DD824 /* LaunchScreen.storyboard */,
+				66448C20297F2401009DD824 /* AppDelegate.swift */,
+				66448C26297F2401009DD824 /* Main.storyboard */,
+				66448C29297F2403009DD824 /* Assets.xcassets */,
+			);
+			path = oother;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +286,9 @@
 				66448C25297F2401009DD824 /* ViewController.swift in Sources */,
 				66448C21297F2401009DD824 /* AppDelegate.swift in Sources */,
 				66448C23297F2401009DD824 /* SceneDelegate.swift in Sources */,
+				66448C57297F33FB009DD824 /* KeyCell.swift in Sources */,
+				66448C53297F28DC009DD824 /* KeyBoardViewController.swift in Sources */,
+				66448C55297F2908009DD824 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
